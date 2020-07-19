@@ -1,3 +1,8 @@
+
+/*Constructor function that handles all ship behavior. Must be called with new.
+*
+* @return {Ship} Return a ship object that can fire from turrets and the like.
+*/
 function Ship(){
 	return {
 		x: canv.width/2,
